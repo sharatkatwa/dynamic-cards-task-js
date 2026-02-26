@@ -61,10 +61,9 @@ main{
     gap: 10px;
 }
 .color{
-    background-color: #fff;
     width: 20px;
     height: 20px;
-    border:1px solid greenyellow;
+    border:1px solid #ffffff;
     border-radius:10px;
 }
 

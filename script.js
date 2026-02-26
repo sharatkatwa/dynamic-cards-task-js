@@ -126,9 +126,9 @@ cars.forEach((elem)=>{
                         <p>Engine: ${elem.engine}</p>
                         <p>Mileage: ${elem.mileage}</p>
                         <div class="colors">
-                            <div style=" background-color=${elem.carColors[0]}" class="color color1"></div>
-                            <div style=" background-color=${elem.carColors[1]}" class="color color2"></div>
-                            <div style=" background-color=${elem.carColors[2]}" class="color color3"></div> +2
+                            <div style=" background-color:${elem.carColors[0]}" class="color color1"></div>
+                            <div style=" background-color:${elem.carColors[1]}" class="color color2"></div>
+                            <div style=" background-color${elem.carColors[2]}" class="color color3"></div> +2
                         </div>
                     </div>
                     <div class="bottom">
