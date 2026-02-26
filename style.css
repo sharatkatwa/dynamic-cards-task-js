@@ -14,13 +14,14 @@ html,body{
 main{
     min-height: 100vh;
     background-color: #2b2b2b;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.877);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-page{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
     padding: 5% 3%;
 }
@@ -79,5 +80,12 @@ img{
     display: flex;
     gap: 40px;
     
+}
+
+.bottom .pros div p::before{
+    content: '✔️ ';
+}
+.bottom .cons div p::before{
+    content: '❌ ';
 }
 
